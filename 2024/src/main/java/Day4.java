@@ -46,7 +46,6 @@ public class Day4 {
         return false;
     }
 
-
     private static int getTotalOccurrencesPart1(String[][] lines) {
         int totalOccurrences = 0;
         String[] patterns = {"XMAS", "SAMX"};
@@ -58,7 +57,6 @@ public class Day4 {
 
             totalOccurrences += horizontalOccurrences(lines, charPattern);
             totalOccurrences += verticalOccurrences(lines, charPattern);
-
         }
 
         return totalOccurrences;
@@ -76,7 +74,6 @@ public class Day4 {
                     }
                 }
             }
-
         }
         return count;
     }
