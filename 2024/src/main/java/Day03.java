@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Day3 {
+public class Day03 {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<String> matches = fileOpening();
 
@@ -69,7 +69,7 @@ public class Day3 {
     }
 
     public static ArrayList<String> fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day3.txt");
+        File myObj = new File("2024/input/day03.txt");
         Scanner myReader = new Scanner(myObj);
 
         String pattern = "(mul\\((-?\\d+),(-?\\d+)\\))|do\\(\\)|don't\\(\\)";

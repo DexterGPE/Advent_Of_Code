@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class Day8 {
+public class Day08 {
     public static void main(String[] args) throws FileNotFoundException {
         String[][] board = fileOpening();
 
@@ -86,7 +86,7 @@ public class Day8 {
     }
 
     public static String[][] fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day8.txt");
+        File myObj = new File("2024/input/day08.txt");
         Scanner myReader = new Scanner(myObj);
         List<String[]> linesList = new ArrayList<>();
 

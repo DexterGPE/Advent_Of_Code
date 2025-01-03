@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Day2 {
+public class Day02 {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<String[]> lines = fileOpening();
         int total_safe = getTotalSafePart1(lines);
@@ -122,7 +122,7 @@ public class Day2 {
     }
 
     public static ArrayList<String[]> fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day2.txt");
+        File myObj = new File("2024/input/day02.txt");
         Scanner myReader = new Scanner(myObj);
 
         ArrayList<String[]> lines = new ArrayList<>();

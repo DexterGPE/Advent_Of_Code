@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Day5 {
+public class Day05 {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<String[]>[] result = fileOpening();
 
@@ -149,7 +149,7 @@ public class Day5 {
     }
 
     public static ArrayList<String[]>[] fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day5.txt");
+        File myObj = new File("2024/input/day05.txt");
         Scanner myReader = new Scanner(myObj);
 
         ArrayList<String[]> resultsRules = new ArrayList<>();

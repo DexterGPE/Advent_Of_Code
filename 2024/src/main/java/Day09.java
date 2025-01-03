@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Day9 {
+public class Day09 {
     public static void main(String[] args) throws FileNotFoundException {
         String[] inputLine = fileOpening();
 
@@ -102,7 +102,7 @@ public class Day9 {
     }
 
     public static String[] fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day9.txt");
+        File myObj = new File("2024/input/day09.txt");
         Scanner myReader = new Scanner(myObj);
         String[] line = myReader.nextLine().trim().split("");
         myReader.close();

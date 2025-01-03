@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Day4 {
+public class Day04 {
     public static void main(String[] args) throws FileNotFoundException {
         String[][] lines = fileOpening();
 
@@ -125,7 +125,7 @@ public class Day4 {
 
 
     public static String[][] fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day4.txt");
+        File myObj = new File("2024/input/day04.txt");
         Scanner myReader = new Scanner(myObj);
 
         String[][] lines = new String[140][140];

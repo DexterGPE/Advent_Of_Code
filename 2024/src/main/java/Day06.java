@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Day6 {
+public class Day06 {
     public static void main(String[] args) throws FileNotFoundException {
         int total = countStepsOnBoardBeforeLeaving(fileOpening());
         System.out.println("Steps on board before leaving (part 1) = " + total);
@@ -225,7 +225,7 @@ public class Day6 {
     }
 
     public static String[][] fileOpening() throws FileNotFoundException {
-        File myObj = new File("2024/input/day6.txt");
+        File myObj = new File("2024/input/day06.txt");
         Scanner myReader = new Scanner(myObj);
 
         ArrayList<String[]> board = new ArrayList<>();

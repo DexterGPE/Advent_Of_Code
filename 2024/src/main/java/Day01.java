@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Day1 {
+public class Day01 {
     public static void main(String[] args) throws FileNotFoundException {
         int[][] lines = readFile();
 
@@ -52,7 +52,7 @@ public class Day1 {
     }
 
     private static int[][] readFile() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("2024/input/day1.txt"));
+        Scanner scanner = new Scanner(new File("2024/input/day01.txt"));
 
         int[][] lines = new int[2][1000];
         int i = 0;
